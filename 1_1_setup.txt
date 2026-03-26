@@ -1,0 +1,33 @@
+There are 2 types of commands : Porcelian and Plumbing
+
+cat ~/.gitconfig
+
+[user]
+        name = Fibr-Samyak
+        email = samyak@fibr.ai
+[init]
+        defaultbranch = master
+
+
+git config --list
+
+credential.helper=osxkeychain
+init.defaultbranch=main
+user.name=Fibr-Samyak
+user.email=samyak@fibr.ai
+init.defaultbranch=master
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+core.precomposeunicode=true
+
+
+git config --global init.defaultBranch main
+cat ~/.gitconfig
+[user]
+        name = Fibr-Samyak
+        email = samyak@fibr.ai
+[init]
+        defaultBranch = main
