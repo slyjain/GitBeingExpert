@@ -74,4 +74,6 @@ GitBeingExpert on  master [?]
 00000080: 23b7 1730 313a 6f83 b61e eeb5 b75a 95db  #..01:o......Z..
 00000090: bb25 ffed d4fb 13bc 9575 e11f e05a a582  .%.......u...Z..
 000000a0: 39e1 69c8 b9cf b6fa 6832 8127 6ced b8fa  9.i.....h2.'l...
-000000b0: a32f 99ea 0f27 204f ba                   ./...' O."
+000000b0: a32f 99ea 0f27 204f ba                   ./...' O."tree and blob
+ Git compresses and packs files to store them more efficiently
+ Git de-duplicates files that are same across different commits. If a file doesnt change between commits , Git will only store it once
