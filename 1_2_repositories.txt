@@ -14,3 +14,6 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 
 Git doesnt store diffs , it stores the entire history per commit
+Git repo is potentially a very long list of commits and each commit represents a full state of repository at a given point of time
+ The git log command shows the history of commits int the repo. THIS IS WHAT MAKES GIT A VERSION CONTROL SYSTEM
+-- oneline --parent --graph are the flags to be used extensively with git log
