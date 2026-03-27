@@ -1,0 +1,4 @@
+A - B - C - F  main
+ \        / 
+  D -  - E   other branch 
+ Here the F is called the T-H-E Merge commit
