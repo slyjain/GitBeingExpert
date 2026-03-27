@@ -1,0 +1,1 @@
+To start a branch from a particular commit we use - git switch -c branchName commit-hash
