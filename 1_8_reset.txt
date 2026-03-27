@@ -1,1 +1,3 @@
 git reset --soft HEAD~1 is used to go back one commit with keeping the upper commit changes in staged sections
+
+git reset --hard COMMITHASH or HEAD~steps removes the changes from our tracked files, out staged changes and also the commit is gone , SO use this properly
