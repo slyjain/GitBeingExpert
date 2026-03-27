@@ -1,0 +1,107 @@
+Section.key -> values
+
+
+ touch 1_4_config.txt
+GitBeingExpert on  master [?] 
+➜  git config --list         
+credential.helper=osxkeychain
+init.defaultbranch=main
+user.name=Fibr-Samyak
+user.email=samyak@fibr.ai
+init.defaultbranch=main
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+core.precomposeunicode=true
+GitBeingExpert on  master [?] 
+➜  find .git -name config
+.git/config
+GitBeingExpert on  master [?] 
+➜  find . -name config
+./.git/config
+GitBeingExpert on  master [?] 
+➜  find . -name Somehting
+GitBeingExpert on  master [?] 
+➜  find . -name setup
+GitBeingExpert on  master [?] 
+➜  find . -name *setup*
+./1_1_setup.txt
+GitBeingExpert on  master [?] 
+➜  git config -add --local samyak.kelaudePe Nitesh
+error: did you mean `--add` (with two dashes)?
+GitBeingExpert on  master [?] 
+➜  git config --add --local samyak.kelaudePe Nitesh
+GitBeingExpert on  master [?] 
+➜  git config --list --local
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+core.precomposeunicode=true
+samyak.kelaudepe=Nitesh
+GitBeingExpert on  master [?] 
+➜  cat .git/config
+[core]
+        repositoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
+        ignorecase = true
+        precomposeunicode = true
+[samyak]
+        kelaudePe = Nitesh
+GitBeingExpert on  master [?] 
+➜  echo "Section.key -> values"   
+Section.key -> values
+GitBeingExpert on  master [?] 
+➜  echo "Section.key -> values" >> 1_4_config.txt 
+GitBeingExpert on  master [?] 
+➜  git config --get kelaudePe
+error: key does not contain a section: kelaudePe
+GitBeingExpert on  master [?] 
+➜  git config --get samyakkelaudePe
+error: key does not contain a section: samyakkelaudePe
+GitBeingExpert on  master [?] 
+➜  git config --get samyak.kelaudePe
+Nitesh
+GitBeingExpert on  master [?] 
+➜  git config --add --local samyak.kaLaudaChoosta Prerit
+GitBeingExpert on  master [?] 
+➜  cat .git/config                                      
+[core]
+        repositoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
+        ignorecase = true
+        precomposeunicode = true
+[samyak]
+        kelaudePe = Nitesh
+        kaLaudaChoosta = Prerit
+GitBeingExpert on  master [?] 
+➜  git config --unset --local samyak.kalaudachoosta 
+GitBeingExpert on  master [?] 
+➜  cat .git/config                                 
+[core]
+        repositoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
+        ignorecase = true
+        precomposeunicode = true
+[samyak]
+        kelaudePe = Nitesh
+GitBeingExpert on  master [?] 
+➜  git config --local --remove-section samyak
+GitBeingExpert on  master [?] 
+➜  cat .git/config                                 
+[core]
+        repositoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
+        ignorecase = true
+        precomposeunicode = true
