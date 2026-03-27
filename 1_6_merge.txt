@@ -2,3 +2,5 @@ A - B - C - F  main
  \        / 
   D -  - E   other branch 
  Here the F is called the T-H-E Merge commit
+
+Fast forward doesnt create a new commit , it just takes the pointer to the lastest commit, and for fat forward to happen the merge-base should be exactly same as the head of branch we are merging into
