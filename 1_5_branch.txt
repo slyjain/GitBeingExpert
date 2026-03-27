@@ -1,0 +1,28 @@
+Mergebase ka commit find karta hai, then uske hisab se merge karta hai
+Branches are really light weight because they are just a pointer to the commit
+How to rename a branch 
+git branch -m oldname newname
+A - B - C main
+ \
+  D- E master
+When you create a branch then it points at the exact commit where your head points
+
+-------------------------------------------------------
+
+BeingExpert on  add_classic [?] 
+➜  cat .git/refs/heads/add_classic
+0434d30dfd334a03af15e3a89a8071237dddf835
+GitBeingExpert on  add_classic [?] 
+➜  cat .git/refs/heads/master     
+0434d30dfd334a03af15e3a89a8071237dddf835
+GitBeingExpert on  add_classic [?] 
+➜  git log --oneline
+0434d30 (HEAD -> add_classic, master) F: Added 1_4_config for config setting and unsetting
+ea5fa46 Added test-dir-2/test-file-1
+57858e2 E: added test2 file in test directory
+267331c D: Added test-dir and test-files
+2006083 C: Actual added 1_2_repositories as final notes
+e609ba4 C: added 1_2_repo with commit info
+4fdd746 Added 1_1_setup notes
+
+------------------------------------------------------------
