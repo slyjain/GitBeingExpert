@@ -1,0 +1,1 @@
+Remote is just a another git repository , it may be on git-hub or it may be on local, it doesnt matter ,all what matters in the .git, .git is the final truth
