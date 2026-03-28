@@ -1,0 +1,1 @@
+Added and learned about github, it is nothing but a authoritative git repository on the cloud that people treat as source of truth
