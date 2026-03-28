@@ -1,2 +1,3 @@
 Added test 
 Test content 2
+Making the change and commit from remote to then merging it in the local
