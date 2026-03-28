@@ -1,0 +1,2 @@
+ I am going to write this down to understand what is git pull, what I have understood is that git pull , just pulls the origin/branch , the branch which you are currently on
+git pull origin/<branch-name> pulls that specific branch
