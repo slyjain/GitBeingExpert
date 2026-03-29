@@ -1,0 +1,4 @@
+gitignore just tells get to ignore the files or class of files
+
+It can be present in any form so you gotta be careful, we can do inter directory gitgnmore
+/.git/info/exclude can add the gitignore only for my file
